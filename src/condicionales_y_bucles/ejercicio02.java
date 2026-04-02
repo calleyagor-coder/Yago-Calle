@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 /**
  *
- * @author LABO B 11
+ * @author Yago
  */
-public class ejercicio2 {
+public class ejercicio02 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         

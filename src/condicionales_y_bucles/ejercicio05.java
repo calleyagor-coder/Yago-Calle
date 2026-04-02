@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 /**
  *
- * @author LABO B 11
+ * @author Yago
  */
-public class ejercicio5 {
+public class ejercicio05 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
@@ -14,7 +14,7 @@ public class ejercicio5 {
         System.out.println("1)VER PERFIL");
         System.out.println("2)EDITAR DATOS");
         System.out.println("3)CERRAR SESIÓN");
-        System.out.println("INGRESE LA OPCIÓN");
+        System.out.println("INGRESE LA OPCIÓN: ");
         int opcion=sc.nextInt();
         
         switch(opcion){
@@ -27,8 +27,9 @@ public class ejercicio5 {
             case 3:
                 System.out.println("Seleccionaste: la Opción 3: Cerrar sesión");
                 break;
-            default
-                sout    
+            default:
+                System.out.println("No ingresaste ninguna opción");
+                
         }
           
     }
