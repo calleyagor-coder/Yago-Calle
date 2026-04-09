@@ -22,3 +22,4 @@ public class ejercicio1 {
         System.out.println("Estado Civil: "+estadocivil);
     }
 }
+
